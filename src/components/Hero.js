@@ -1,34 +1,17 @@
 import React from 'react'
-import Typography from '@material-ui/core/Typography'
-import { makeStyles } from '@material-ui/core/styles';
-import Container from '@material-ui/core/Container';
 
-
-const useStyles = makeStyles({
-    hero: {
-        textAlign: "center"
-        // margin: "-100px"
-    },
-    title: {
-        textAlign: "center",
-        fontSize: "400px",
-        letterSpacing: "-3px",
-        fontFamily: "Bebas Neue', cursive"
-    }
-  });
-
-function Hero() {
-    const classes = useStyles();
-    return(
-        <>
-            <Container className={classes.layout}>
-                <h1 className="title">GAMAL</h1>
-                <Typography className={classes.hero} variant="h4">
-                    Front-End Engineer 
-                </Typography>
-            </Container>
-        </>
-    );
+const Hero = () => {
+    return ( 
+        <section>
+                <div className="hero">
+                    <h1 className="title">
+                        gamal
+                    </h1>
+                    <h3>Front-End Engineer</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus tenetur in dolore iure hic necessitatibus ab dolorem non consequuntur suscipit.</p>
+                </div>
+        </section>
+     );
 }
 
 export default Hero;
