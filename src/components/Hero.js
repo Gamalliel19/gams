@@ -8,7 +8,7 @@ const Hero = () => {
                         gamal
                     </h1>
                     <h3>Front-End Engineer</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus tenetur in dolore iure hic necessitatibus ab dolorem non consequuntur suscipit.</p>
+                    <p>Passionate Front-End Engineer who loved to design and implement the design using React JS. <br/> I am based in Bogor City, Indonesia.</p>
                 </div>
         </section>
      );
