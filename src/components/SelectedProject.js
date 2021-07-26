@@ -32,7 +32,7 @@ const SelectedProject = () => {
                         <a href="https://gamalliel19.github.io/akm-towing-website/" className="card-image">
                             <img src="assets/akmtowing.png" alt="project" />
                         </a>
-                        <h3>Mandalore Batik</h3>
+                        <h3>AKM Towing Website</h3>
                         <div className="card-description">
                             <p>
                             AKM Towing is a company for Towing and Storing services and they need to revamp their profile company website, so I revamp the landing page and implement it into their old website. I used HTML, CSS, and JavaScript to build AKM Towing Profile Company Website.
